@@ -1,0 +1,75 @@
+﻿@model EmployeeSalaryModel.Models.Payslip
+
+@{
+    ViewBag.Title = "GetPayslip";
+}
+
+<h2>Payslip</h2>
+
+<div>
+    <table class="dl-horizontal">
+        <tbody>
+            <tr>
+                <td>
+                    @Html.DisplayNameFor(model => model.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.FullName)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.DisplayNameFor(model => model.GrossIncome)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.GrossIncome)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.DisplayNameFor(model => model.IncomeTax)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.IncomeTax)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.DisplayNameFor(model => model.NetIncome)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.NetIncome)
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+                    @Html.DisplayNameFor(model => model.SuperAnnuation)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.SuperAnnuation)
+                </td>
+            </tr>
+            <tr>
+
+                <td>
+                    @Html.DisplayNameFor(model => model.PayPeriod)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.PayPeriod)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Back to Home", "Index")
+</p>
+<style>
+    table, th, td {
+        border: 1px solid black;
+    }
+    table td.first {
+        text-decoration:solid
+    }
+</style>

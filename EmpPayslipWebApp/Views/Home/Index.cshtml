@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Payslip Generator</h1>
+    <p class="lead">This web solution is based on ASP.NET which is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p class="lead">Generate payslip for employee</p>
+    <p><a href='@(Url.Action("CreatePayslip","Home").ToString())' class="btn btn-primary btn-lg">Go&raquo;</a></p>
+</div>
