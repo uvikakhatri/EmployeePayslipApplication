@@ -43,7 +43,7 @@ B. Assumptions:
 
     2.4. JQuery and JQueryUI controls(datepicker) etc. are used.
   
-C. Link to source code : https://github.com/uvikakhatri/EmployeeSalaryWebApp
+C. Link to source code : https://github.com/uvikakhatri/EmployeePayslipApplication
 
 D. Test Inputs and outputs
 
